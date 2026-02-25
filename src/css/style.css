@@ -28,6 +28,19 @@ body[data-color-accessibility-mode][data-color-scheme="dark"] {
     text-decoration: underline;
 }
 
+.shadowban-scanner-sorsa-score {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.4rem;
+    padding: 0 0.55rem;
+    border-radius: 0.5rem;
+    background-color: rgb(0 95 0 / 0.35);
+    color: rgb(0 210 0);
+    font-size: 0.95em;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
 sbs-message {
     --message-background-color-red: var(--sb-background-red);
     --message-background-color-green: var(--sb-background-green);
